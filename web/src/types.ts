@@ -1,0 +1,2 @@
+export interface Post{id:number;title:string;slug:string;summary:string;contentMarkdown:string;status:'draft'|'published';category:string;coverUrl:string;featured:boolean;publishedAt:string|null;createdAt:string;updatedAt:string;tags:string[];readingMinutes:number}
+export const emptyPost=():Omit<Post,'id'|'createdAt'|'updatedAt'|'readingMinutes'>=>({title:'',slug:'',summary:'',contentMarkdown:'',status:'draft',category:'技术',coverUrl:'',featured:false,publishedAt:null,tags:[]})

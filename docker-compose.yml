@@ -1,0 +1,12 @@
+services:
+  blog:
+    build: .
+    ports: ["8080:8080"]
+    env_file: [.env]
+    environment:
+      DATABASE_PATH: /data/blog.db
+      COOKIE_SECURE: "false"
+    volumes: ["blog-data:/data"]
+    restart: unless-stopped
+volumes:
+  blog-data:
