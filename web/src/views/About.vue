@@ -1,0 +1,1 @@
+<template><article class="article"><header><p class="eyebrow">/ ABOUT</p><h1>关于编译之后</h1><p>在构建系统与思考生活之间，保留一块安静的记录空间。</p></header><div class="prose"><h2>为什么写作</h2><p>After Compile 用于记录技术探索、系统设计和生活思考。这里既有可复用的工程经验，也有屏幕熄灭之后值得记住的片段。</p><h2>关于作者</h2><p>这是一份便于替换的示例介绍。你可以在 <code>web/src/views/About.vue</code> 中写下自己的经历、关注领域与联系方式。</p></div></article></template>

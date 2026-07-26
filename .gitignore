@@ -1,0 +1,10 @@
+.env
+data/*.db
+data/*.db-*
+web/node_modules/
+web/dist/
+after-compile
+.DS_Store
+coverage/
+
+web/*.tsbuildinfo
